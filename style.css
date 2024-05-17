@@ -18,7 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px black;
 }
 
 header h1 a {
@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 .section {
   padding: 50px 0;
-  background: linear-gradient(135deg, #2c3e50, #3498db);
+  background: linear-gradient(135deg, yellow, green);
   color: #fff;
   text-align: center;
 }
@@ -90,6 +90,13 @@ nav ul li a:hover {
 .container .btn:hover {
   background-color: #c0392b;
 }
+.container ul {
+  text-align: left;
+  padding-left: 20px;
+}
+.container ul li {
+  margin-bottom: 10px;
+}
 .products {
   display: flex;
   justify-content: center;
@@ -118,7 +125,7 @@ nav ul li a:hover {
 /* about us */
 .about-us-section {
   padding: 50px 0;
-  background: linear-gradient(135deg, #2c3e50, #3498db);
+  background: linear-gradient(135deg, yellow, green);
   color: #fff;
   text-align: center;
 }
@@ -210,6 +217,7 @@ nav ul li a:hover {
 /* footer */
 footer {
   background-color: white;
+  background: linear-gradient(135deg, yellow, green);
   color: black;
   padding: 2rem;
   text-align: center;
